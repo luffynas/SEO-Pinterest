@@ -1,0 +1,41 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+.modal {
+    z-index: 1050 !important;
+}
+.modal-lg {
+    max-width: 80% !important;
+}
+
